@@ -228,4 +228,7 @@ img, iframe {
     iframe {
         width: 100%;
     }
+    .header h1 {
+        padding: 0;
+    }
 }
