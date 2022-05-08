@@ -216,9 +216,16 @@ img, iframe {
     /* column-3 pasará de tener 33.33% a 100% */
     .column-3 {
         width: 100%;
+        padding-left: 10%;
     }
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
+    }
+    .header h1 {
+        font-size: 60px;
+    }
+    iframe {
+        width: 100%;
     }
 }
