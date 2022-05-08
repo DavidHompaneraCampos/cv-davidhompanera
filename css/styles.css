@@ -185,6 +185,17 @@ body {
     background: black;
 }
 
+iframe:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+img:hover {
+    transform: translateZ(-15px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 30px 0px rgba(0, 217, 255, 0.363);
+}
+
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 
 .flex {
